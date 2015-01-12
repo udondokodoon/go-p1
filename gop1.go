@@ -3,5 +3,5 @@ package gop1
 import "fmt"
 
 func HelloWorld(name string) string {
-	return fmt.Sprintf("Hello!! 3%s", name)
+	return fmt.Sprintf("Hello!! %s", name)
 }
